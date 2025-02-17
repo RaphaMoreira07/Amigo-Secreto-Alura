@@ -195,3 +195,100 @@ ul {
     font-size: 24px;
     font-weight: bold;
 }
+
+
+/* Responsividade para mobile */
+@media (max-width: 480px) {
+    body {
+        height: auto;
+        padding: 20px;
+        background-color: var(--color-primary);
+    }
+
+    .main-content {
+        max-width: 100%;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .header-banner {
+        flex: 30%;
+        padding: 30px 0;
+    }
+
+    .main-title {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+
+    .input-section {
+        flex: 70%;
+        background-color: var(--color-secondary);
+        border-radius: 20px;
+        padding: 15px;
+    }
+
+    .section-title {
+        font-size: 28px;
+        margin: 10px 0;
+    }
+
+    .input-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .input-name {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    .button-container {
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .button-add {
+        width: 100%;
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    .name-list li {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    .remove-btn {
+        font-size: 16px;
+    }
+
+    .result-list {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .button-draw {
+        width: 100%;
+        font-size: 18px;
+        padding: 12px;
+    }
+
+    .button-draw img {
+        margin-right: 15px;
+    }
+
+    .sorteado {
+        font-size: 22px;
+    }
+
+    .sorteado.final {
+        font-size: 26px;
+    }
+}
