@@ -292,3 +292,12 @@ ul {
         font-size: 26px;
     }
 }
+/* Responsividade para o título na versão mobile */
+@media (max-width: 480px) {
+    .main-title {
+        font-size: 32px;  /* Reduzido para um tamanho melhor */
+        margin-bottom: 10px;
+        text-align: center; /* Garantindo que o título fique centralizado */
+        padding: 0 10px;    /* Adicionando um pouco de espaço nas laterais */
+    }
+}
