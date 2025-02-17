@@ -160,3 +160,38 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+.name-list li {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 8px 12px;
+    border-bottom: 1px solid #ddd;
+    font-size: 18px;
+}
+
+.remove-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: red;
+    margin-left: 10px;
+}
+
+.remove-btn:hover {
+    color: darkred;
+}
+.sorteado {
+    font-size: 20px;
+    font-weight: bold;
+    color: #444;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.sorteado.final {
+    color: #27ae60;
+    font-size: 24px;
+    font-weight: bold;
+}
